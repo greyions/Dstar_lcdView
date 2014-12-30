@@ -1,0 +1,13 @@
+A simple python script to allow the use of the 16x2 RGB LCD Pi plate from
+Adafruit so that I can view the callsigns while operating D-Star.
+
+Usage:
+	From a terminal run: sudo python lcdView.py
+
+The Select button on the plate will exit the script, clear the screen and shut off the backlight.
+The Right button will clear the screen
+The Up button will display the IP address of the Pi and the current time.
+
+I'm currently using this with the Maryland D-Star image for the Raspberry Pi. (http://http://maryland-dstar.org/index.html)
+
+--Greyions
