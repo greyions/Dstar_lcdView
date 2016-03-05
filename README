@@ -10,4 +10,11 @@ The Up button will display the IP address of the Pi and the current time.
 
 I'm currently using this with the Maryland D-Star image for the Raspberry Pi. (http://http://maryland-dstar.org/index.html)
 
+Please follow the instructions located at:
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
+https://learn.adafruit.com/character-lcd-with-raspberry-pi-or-beaglebone-black/usage
+ to insure that your LCD plate is operating correctly before running this.
+
+The startlcd.sh & startRemote.sh scripts allow the user to remotly log into the pi and start the lcd program or run both the lcd program and the remote program to change reflecters.
+
 --Greyions
